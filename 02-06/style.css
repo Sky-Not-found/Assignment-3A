@@ -12,6 +12,7 @@ h1 {
   letter-spacing: .15em; 
  
   animation: typing 3s steps(14),
+    blinking 0.5s steps(1) infinite;
 }
 
 @keyframes typing {
