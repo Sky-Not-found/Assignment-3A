@@ -7,11 +7,11 @@
   }
 }
 .cloud01 {
-
+animation: float 25s linear infinite;
 }
 
 .cloud02 {
-  
+  animation: float 30s 5s linear infinite backwards;
 }
 
 
