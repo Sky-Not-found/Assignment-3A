@@ -4,7 +4,7 @@
   animation-duration: 3s;
   animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  animation-timing-function: ease;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
 @keyframes move {
