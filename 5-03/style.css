@@ -36,10 +36,14 @@ p:nth-of-type(2) {
 }
 
 p:nth-of-type(3) {
+  --deg: -5deg;
+  --dist: 100%;
   color: #fbacbe;
 }
 
 p:nth-of-type(4) {
+  --scale:1.9;
+  --deg:15deg;
   color: #DCF2B0;
 }
 
