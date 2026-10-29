@@ -4,7 +4,16 @@ h2 {
   font-size:7em;
   font-weight: 900;
   text-align:center;
+  perspective: 1000px;
+  transform-style: preserve-3d;
 }
+
+@keyframes flipUp {
+  from {transform: rotateX(90deg);}
+  to {transform:rotateX(0deg);}
+}
+
+
 
 span:nth-child(2) {
   margin-right:0.15em;
